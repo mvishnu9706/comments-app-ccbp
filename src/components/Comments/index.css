@@ -1,0 +1,126 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  height: 100vh;
+}
+
+.comments-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+.app-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 14px;
+}
+
+.comments-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+
+.form-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 25px;
+}
+
+.name-input {
+  font-family: 'Roboto';
+  font-size: 18px;
+  height: 45px;
+  border: 1px solid #cbd2d9;
+  border-radius: 9px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 14px;
+  outline: none;
+}
+
+.comment-input {
+  font-family: 'Roboto';
+  font-size: 18px;
+  border: 1px solid #cbd2d9;
+  border-radius: 9px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  outline: none;
+}
+
+.add-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #0284c7;
+  border-radius: 9px;
+  border: none;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-top: 10px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+  min-width: 55px;
+}
+
+.image {
+  height: 200px;
+  width: 280px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  margin-left: 10px;
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.comments-count {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #0284c7;
+  text-align: center;
+  border-radius: 9px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}
